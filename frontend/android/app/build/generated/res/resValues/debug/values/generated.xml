@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from build type: debug -->
+    <integer name="react_native_dev_server_port">8081</integer>
+    <integer name="react_native_inspector_proxy_port">8081</integer>
+    <!-- Values from default config. -->
+    <string name="HERE_APIKEY" translatable="false">"INS71v_5O2s1Yhx-sbxTMF2IhaxpHoxW-t60NwU9rWU"</string>
+    <string name="STARTER_KIT_SERVER_URL" translatable="false">"http://shopintine.eu-gb.mybluemix.net/"</string>
+    <string name="build_config_package" translatable="false">com.shopintine</string>
+
+</resources>
