@@ -12,6 +12,12 @@ In this COVID-19 pandemic which has affected 213 Countries and Territories, the 
 
 TeamAham has devised an app that uses the users’ current location and enables them to view the shops/services available within their reach and also shows the traffic and gives an estimate of how safe that location can be and in store how many people are there so that not more people will go to that shop and that will help in encouraging Social - Distancing .Thanks to the IBM services and Here Maps, it has enabled us to come up with a solution for the same. 
 
+
+### Architecture Diagram
+
+<img src="https://github.com/hpnightowl/ShopinTine/blob/master/images/architecture-diagram.jpg">
+
+
 ### Screenshots 
 
 <table>
