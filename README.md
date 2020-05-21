@@ -15,7 +15,7 @@ TeamAham has devised an app that uses the users’ current location and enables 
 
 ###Architecture Diagram
 
-<img src="https://github.com/hpnightowl/ShopinTine/blob/master/screens/photo_2020-05-20_20-57-23.jpg?raw=true" width=553 height=366>
+<img src="https://github.com/hpnightowl/ShopinTine/blob/master/screens/photo_2020-05-20_20-57-23.jpg?raw=true">
 
 
 ### Screenshots 
