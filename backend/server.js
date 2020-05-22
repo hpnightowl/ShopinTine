@@ -177,22 +177,22 @@ app.get('/api/resource', (req, res) => {
 let types = ["Shop"]
 app.post('/api/resource', (req, res) => {
   if (!req.body.type) {
-    return res.status(422).json({ errors: "Type of item must be provided"});
+    return res.status(422).json({ errors: "Type of Shop must be provided"});
   }
   if (!types.includes(req.body.type)) {
-    return res.status(422).json({ errors: "Type of item must be one of " + types.toString()});
+    return res.status(422).json({ errors: "Type of Shop must be one of " + types.toString()});
   }
   if (!req.body.name) {
-    return res.status(422).json({ errors: "Name of item must be provided"});
+    return res.status(422).json({ errors: "Name of Shop must be provided"});
   }
   if (!req.body.contact) {
-    return res.status(422).json({ errors: "A method of conact must be provided"});
+    return res.status(422).json({ errors: "A method of contact must be provided"});
   }
   const type = req.body.type;
   const name = req.body.name;
   const adiinfo = req.body.adiinfo || '';
   const userID = req.body.userID || '';
-  const nos = req.body.nos || 1;
+  const nos = req.body.nos;
   const location = req.body.location || '';
   const contact = req.body.contact;
 
@@ -251,5 +251,5 @@ app.delete('/api/resource/:id', (req, res) => {
 const server = app.listen(port, () => {
    const host = server.address().address;
    const port = server.address().port;
-   console.log(`SolutionStarterKitCooperationServer listening at http://${host}:${port}`);
+   console.log(`ShopinTine listening at http://${host}:${port}`);
 });
