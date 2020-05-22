@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hpnightowl/hackit/starter-kit/mobile-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
+            "outputFile": "/home/hpnightowl/h/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/home/hpnightowl/.gradle/caches/transforms-2/files-2.1/94cd40d8f6bbe091fd7229a6ea9a9340/res/values-lt/values.xml",

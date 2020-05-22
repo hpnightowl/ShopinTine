@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
 });
 
 const EditResource = (props) => {
-  const clearItem = { userID: userID(), e: 'Shop', name: '', adiinfo: '', location: '', contact: '', nop: '1' }
+  const clearItem = { userID: userID(), e: 'Shop', name: '', adiinfo: '', location: '', contact: '', nop: '' }
   const [item, setItem] = React.useState(clearItem);
   const [useLocation, setUseLocation] = React.useState(false);
   const [position, setPosition] = React.useState({})

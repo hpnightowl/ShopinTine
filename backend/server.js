@@ -170,7 +170,7 @@ app.get('/api/resource', (req, res) => {
  * The body may also contain:
  * 
  * - adiinfo
- * - nos (which will default to 1 if not included)
+ * - nop (which will default to 0 if not included)
  * 
  * The ID and rev of the resource will be returned if successful
  */
@@ -192,12 +192,12 @@ app.post('/api/resource', (req, res) => {
   const name = req.body.name;
   const adiinfo = req.body.adiinfo || '';
   const userID = req.body.userID || '';
-  const nos = req.body.nos;
+  const nop = req.body.nop || '0';
   const location = req.body.location || '';
   const contact = req.body.contact;
 
   cloudant
-    .create(type, name, adiinfo, nos, location, contact, userID)
+    .create(type, name, adiinfo, nop, location, contact, userID)
     .then(data => {
       if (data.statusCode != 201) {
         res.sendStatus(data.statusCode)
@@ -222,12 +222,12 @@ app.patch('/api/resource/:id', (req, res) => {
   const name = req.body.name || '';
   const adiinfo = req.body.adiinfo || '';
   const userID = req.body.userID || '';
-  const nos = req.body.nos || '';
+  const nop = req.body.nop || '0';
   const location = req.body.location || '';
   const contact = req.body.contact || '';
 
   cloudant
-    .update(req.params.id, type, name, adiinfo, nos, location, contact, userID)
+    .update(req.params.id, type, name, adiinfo, nop, location, contact, userID)
     .then(data => {
       if (data.statusCode != 200) {
         res.sendStatus(data.statusCode)

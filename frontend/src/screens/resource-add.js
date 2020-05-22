@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
 });
 
 const AddResource = function ({ navigation }) {
-  const clearItem = { userID: userID(), type: 'Shop', name: '', adiinfo: '', location: '', contact: '', nop: '1' }
+  const clearItem = { userID: userID(), type: 'Shop', name: '', adiinfo: '', location: '', contact: '', nop: '' }
   const [item, setItem] = React.useState(clearItem);
   const [useLocation, setUseLocation] = React.useState(true);
   const [position, setPosition] = React.useState({})
