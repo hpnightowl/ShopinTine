@@ -50,3 +50,10 @@ TeamAham has devised an app that uses the users’ current location and enables 
 <td><img src="https://github.com/hpnightowl/ShopinTine/blob/master/screens/photo_2020-05-20_21-03-10.jpg?raw=true" width=185 height=350></td>
   </tr><br/>
  </table>
+ 
+ ### Team Aham
+
+[Anish Aggarwal (Leader)](https://github.com/AnishAggarwal71)<br />
+[Harsh Pal](https://github.com/hpnightowl)<br />
+[Mohit Soni](https://github.com/spicymaterial)<br />
+[Adarsh Bhasker Srivastava](https://github.com/adarsh523) 
