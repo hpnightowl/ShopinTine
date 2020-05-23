@@ -22,6 +22,9 @@ TeamAham has devised an app that uses the users’ current location and enables 
 <img src="https://github.com/hpnightowl/ShopinTine/blob/master/images/proposed-architecture.png">
 
 
+
+### [How To Compile](https://www.notion.so/How-to-Deploy-9ea5d068409a4dbb9bace41680f972d4) 
+
 ### Screenshots 
 
 <table>
@@ -51,7 +54,7 @@ TeamAham has devised an app that uses the users’ current location and enables 
   </tr><br/>
  </table>
  
- ### Team Aham
+### Team Aham
 
 [Anish Aggarwal (Leader)](https://github.com/AnishAggarwal71)<br />
 [Harsh Pal](https://github.com/hpnightowl)<br />
